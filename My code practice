@@ -5,3 +5,25 @@ print ("Age: " + str(Age))
 
 Name = input("please enter your name: ")
 print ("Welcome " + Name)
+
+# practice
+
+productid = 42
+price = 5000
+tax = 50
+total = price + tax
+
+print(productid)
+print(price)
+print(tax)
+print(total)
+
+discount = float(5.5)
+nettotal = total - discount
+print(discount)
+print(nettotal)
+
+
+productwherehouse = "wherehouse abc inc"
+producttitle = "iphone 17 pro max" 
+productsales = 5000000
