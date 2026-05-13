@@ -1,0 +1,7 @@
+student = "Zain"
+Age = 25
+print ("Name: " + str(student))
+print ("Age: " + str(Age))
+
+Name = input("please enter your name: ")
+print ("Welcome " + Name)
