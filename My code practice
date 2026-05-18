@@ -1,29 +1,56 @@
-student = "Zain"
-Age = 25
-print ("Name: " + str(student))
-print ("Age: " + str(Age))
+# student = "Zain"
+# Age = 25
+# print ("Name: " + str(student))
+# print ("Age: " + str(Age))
 
-Name = input("please enter your name: ")
-print ("Welcome " + Name)
+# Name = input("please enter your name: ")
+# print ("Welcome " + Name)
 
-# practice
+# # practice
 
-productid = 42
-price = 5000
-tax = 50
-total = price + tax
+# productid = 42
+# price = 5000
+# tax = 50
+# total = price + tax
 
-print(productid)
-print(price)
-print(tax)
-print(total)
+# print(productid)
+# print(price)
+# print(tax)
+# print(total)
 
-discount = float(5.5)
-nettotal = total - discount
-print(discount)
-print(nettotal)
+# discount = float(5.5)
+# nettotal = total - discount
+# print(discount)
+# print(nettotal)
 
 
-productwherehouse = "wherehouse abc inc"
-producttitle = "iphone 17 pro max" 
-productsales = 5000000
+# productwherehouse = "wherehouse abc inc"
+# producttitle = "iphone 17 pro max" 
+# productsales = 5000000
+# discount = 3
+
+# percentage = 3 / nettotal * 100
+
+# print(productwherehouse + producttitle)
+# print(productwherehouse + str(price))
+# print(nettotal - total)
+
+
+student = "zain"
+age = 25
+for i in student:
+    print(i)
+
+n = input("please enter your name: ")
+a = int(input("please enter your age: "))
+
+if a >= 18:
+    print("Welcome Sir " + str(n))
+else:
+    print("your are underage!")
+
+print ("How May I assit you sir! " + str(n))
+
+print(type(n))
+print(type(a))
+
