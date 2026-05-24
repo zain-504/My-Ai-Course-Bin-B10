@@ -36,21 +36,37 @@
 # print(nettotal - total)
 
 
-student = "zain"
-age = 25
-for i in student:
-    print(i)
+# student = "zain"
+# age = 25
+# for i in student:
+#     print(i)
 
-n = input("please enter your name: ")
-a = int(input("please enter your age: "))
+# n = input("please enter your name: ")
+# a = int(input("please enter your age: "))
 
-if a >= 18:
-    print("Welcome Sir " + str(n))
-else:
-    print("your are underage!")
+# if a >= 18:
+#     print("Welcome Sir " + str(n))
+# else:
+#     print("your are underage!")
 
-print ("How May I assit you sir! " + str(n))
+# print ("How May I assit you sir! " + str(n))
 
-print(type(n))
-print(type(a))
+# print(type(n))
+# print(type(a))
+
+# try:
+#     num = int(input("Enter an integer: "))
+
+# except ValueError:
+#     print("Enter number is not an Integer: ")
+
+
+# finally:
+#     print("Program Run Sucessfully!")
+
+
+a = 2
+b = 4
+print(a) if a > b else print(b)
+
 
