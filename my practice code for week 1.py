@@ -48,3 +48,12 @@ print(d["zainid"])
 
 for i in b:
     print(i)
+
+
+
+
+
+
+
+
+    mobilelist = ["title", 50.50, 5000, ]

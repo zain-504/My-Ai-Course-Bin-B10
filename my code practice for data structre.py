@@ -60,3 +60,9 @@ if ["model" is "samsung"]:
     print("The price of this model is: 50")
 else:
     print("out of budget!")
+
+
+
+
+
+
